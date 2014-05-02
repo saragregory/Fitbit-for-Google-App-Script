@@ -46,7 +46,7 @@ function refreshTimeSeries() {
     var activities = ["activities/log/steps", "activities/log/distance", "activities/activityCalories", "activities/log/calories", "foods/log/caloriesIn",
     "activities/caloriesBMR", "activities/log/minutesSedentary", "activities/log/minutesLightlyActive", "activities/log/minutesFairlyActive", 
     "activities/log/minutesVeryActive", "sleep/timeInBed", "sleep/minutesAsleep", "sleep/minutesAwake", "sleep/awakeningsCount", "sleep/startTime",  
-    "sleep/minutesToFallAsleep", "sleep/minutesAfterWakeup", "sleep/efficiency", "foods/log/water", "body/weight", "body/bmi"]
+    "sleep/minutesToFallAsleep", "sleep/minutesAfterWakeup", "sleep/efficiency", "foods/log/water", "body/weight", "body/bmi" //to count floors, elevation or body fat: "activities/floors", "activities/elevation", "body/fat"]
     for (var activity in activities) {
         var dateString = Utilities.formatDate(new Date(), "GMT", "yyyy-MM-dd");
         dateString = "today";
