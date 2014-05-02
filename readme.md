@@ -11,7 +11,8 @@ Sadly to get started is a bit of a pain:
 5. Enter your credentials
 6. Run the "Authorize" script -- this will run through the oauth dance.
 7. Run the 'refreshTimeSeries" script to get your data
-8. Profit!
+
+The script will retrieve these Fitbit fields: Steps, distance (km), activity-related calories burned, total calories burned, total calories consumed, BMR calories burned, minutes sedentary, minutes lightly active, minutes fairly active, minutes very active, time in bed, minutes asleep, minutes awake, awakenings count, sleep start time, minutes to fall asleep, minutes after wakeup, sleep efficiency, water consumed, weight (kg) and BMI.
 
 [0]: http://drive.google.com
 [1]: https://github.com/loghound/Fitbit-for-Google-App-Script
